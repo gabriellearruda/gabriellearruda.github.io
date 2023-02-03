@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Gabrielle Arruda Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://gabriellearruda.github.io/",
   },
 };
 
@@ -32,28 +32,22 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-    name: "Github",
-    link: "https://github.com/gabriellearruda",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
+    name: "Github",
+    link: "https://github.com/gabriellearruda",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
     name: "Gmail",
     link: "mailto:gabriellearrudac@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Instagram",
@@ -614,6 +608,12 @@ const experience = {
 };
 
 // Projects Page
+const projectsAndPublicationHeader = {
+  title: "Projects & Publications",
+  description:"Learn more about my work in technology for social impact. My articles are on blogs and magazines.",
+  avatar_image_path: "projects_image.svg",
+};
+
 const projectsHeader = {
   title: "Projects",
   description:
@@ -621,14 +621,7 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
+const projects = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -654,23 +647,60 @@ const publications = {
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
   ],
+};
+
+const publicationsHeader = {
+  title: "Publications",
+  description:
+    "I have worked on and published a few research papers and publications of my own.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const publications = {
+  data: [],
+  // data: [
+  //   {
+  //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+  //     name: "Artificial Intelligence Paper",
+  //     createdAt: "2020-03-06T16:26:54Z",
+  //     description: "Paper Written on Artificial Intelligence published in xyz ",
+  //     url:
+  //       "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+  //   },
+  //   {
+  //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+  //     name: "Artificial Intelligence Paper",
+  //     createdAt: "2020-03-06T16:26:54Z",
+  //     description: "Paper Written on Artificial Intelligence published in xyz ",
+  //     url:
+  //       "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+  //   },
+  //   {
+  //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+  //     name: "Artificial Intelligence Paper",
+  //     createdAt: "2020-03-06T16:26:54Z",
+  //     description: "Paper Written on Artificial Intelligence published in xyz ",
+  //     url:
+  //       "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+  //   },
+  //   {
+  //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+  //     name: "Artificial Intelligence Paper",
+  //     createdAt: "2020-03-06T16:26:54Z",
+  //     description: "Paper Written on Artificial Intelligence published in xyz ",
+  //     url:
+  //       "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+  //   },
+  //   {
+  //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+  //     name: "Artificial Intelligence Paper",
+  //     createdAt: "2020-03-06T16:26:54Z",
+  //     description: "Paper Written on Artificial Intelligence published in xyz ",
+  //     url:
+  //       "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+  //   },
+  // ],
 };
 
 // Contact Page
@@ -711,7 +741,9 @@ export {
   degrees,
   certifications,
   experience,
+  projectsAndPublicationHeader,
   projectsHeader,
+  projects,
   publicationsHeader,
   publications,
   contactPageData,

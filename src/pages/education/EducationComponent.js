@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import Educations from "../../containers/education/Educations";
-import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
+// import Educations from "../../containers/education/Educations";
+// import Certifications from "../../containers/certifications/Certifications";
+// import { certifications } from "../../portfolio";
+import Button from "../../components/button/Button";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
-import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import { greeting, contactPageData } from "../../portfolio.js";
 
 class Education extends Component {
   render() {
@@ -29,19 +29,23 @@ class Education extends Component {
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+                  Education & Experience
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
-                </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                <div className="resume-btn-div">
+                  <Button
+                    text="See My Resume"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                    theme={theme}
+                  />
+                </div>
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
+          {/* <Educations theme={this.props.theme} />
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
-          ) : null}
+          ) : null} */}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
