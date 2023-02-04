@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://docs.google.com/document/d/1VDFVWFYRFakGodqlG05t-4TL-Y4I62VruML_XDy5ztA/edit?usp=sharing",
   portfolio_repository: "https://github.com/gabriellearruda/gabriellearruda.github.io",
   githubProfile: "https://github.com/gabriellearruda",
 };
@@ -610,7 +610,7 @@ const experience = {
 // Projects Page
 const projectsAndPublicationHeader = {
   title: "Projects & Publications",
-  description:"Learn more about my work in technology for social impact. My articles are on blogs and magazines.",
+  description:"Learn more about my work in technology for impact in public health at Impulso Gov. You can also read my articles are on blogs and magazines.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -624,28 +624,28 @@ const projectsHeader = {
 const projects = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "1",
+      name: "Primary Health Care",
+      createdAt: "2021",
+      description: "Impulso Previne is the biggest platform for indicators of primary health care.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://www.impulsoprevine.org/",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "2",
+      name: "Mental health",
+      createdAt: "2022",
+      description: "Platform to monitor indicators of mental health services.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://saudemental.impulsogov.org/",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "3",
+      name: "Territorial Health",
+      createdAt: "2022",
+      description: "Social analysis of the territory for strategic decision-making in the health-disease-care process.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://territorios.impulsogov.org/",
     },
   ],
 };
