@@ -9,7 +9,7 @@ import Button from "../../components/button/Button";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 
 class Education extends Component {
   render() {
