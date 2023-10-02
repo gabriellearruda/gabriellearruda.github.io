@@ -21,9 +21,9 @@ const seo = {
 const greeting = {
   title: "Gabrielle Arruda",
   logo_name: "GabrielleArruda",
-  nickname: "gabrielle_arruda",
+  nickname: "Technology Manager",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I work creating digital technologies and interventions for improvements in health.",
   resumeLink:
     "https://docs.google.com/document/d/1VDFVWFYRFakGodqlG05t-4TL-Y4I62VruML_XDy5ztA/edit?usp=sharing",
   portfolio_repository: "https://github.com/gabriellearruda/gabriellearruda.github.io",
@@ -31,6 +31,12 @@ const greeting = {
 };
 
 const socialMediaLinks = [
+  {
+    name: "Whastapp",
+    link: "https://api.whatsapp.com/send?phone=5511940211447",
+    fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#1ca62c", // Reference https://simpleicons.org/?q=linkedin
+  },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/gabrielle-arruda/",
