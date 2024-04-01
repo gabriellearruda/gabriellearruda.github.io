@@ -5979,7 +5979,7 @@
                                 className: "badge", // Classe CSS para estilizar os badges
                                 style: {
                                     // backgroundColor: getRandomColor() 
-                                    backgroundColor: "#D3D3D3"
+                                    backgroundColor: "#E4E4E4"
                                 }
                             }, badge);
                         })
