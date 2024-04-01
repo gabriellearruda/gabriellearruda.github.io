@@ -414,7 +414,7 @@
             },
             O = "Projects & Publications",
             // R = "Learn more about my work in technology for impact in public health at Impulso Gov. You can also read my articles are on blogs and magazines.",
-            R = "My projects use a wide variety of cutting-edge technological tools. My best experience is creating processing projects and generating intelligence from data (Data Science) and deploying them in web applications, which are easy to use for users, using cloud infrastructure.",
+            R = "My projects use a wide variety of cutting-edge technological tools. My best experience is creating processing projects and generating intelligence from data and deploying them in web applications, which are easy to use for users, using cloud infrastructure.",
             B = "Projects",
             // S = "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
             S = "",
