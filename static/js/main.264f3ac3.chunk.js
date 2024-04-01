@@ -421,26 +421,34 @@
             U = {
                 data: [{
                     id: "1",
-                    name: "Primary Health Care",
-                    badges: ["Health", "Management", "Data Science"],
-                    createdAt: "2021",
-                    description: "Impulso Previne is the biggest platform for indicators of primary health care.",
+                    name: "Impulso Previne",
+                    badges: ["Technology Management", "React", "User Experience", "Data Visualization"],
+                    createdAt: "2021 to 2023",
+                    description: "In progress.",
                     url: "https://www.impulsoprevine.org/"
                 }, 
                 {
                     id: "2",
-                    name: "Mental health",
-                    badges: ["Health", "Management", "Data Science"],
-                    createdAt: "2022",
-                    description: "<b>Platform</b>: to monitor. <br><br>indicators of mental health services.",
+                    name: "Territórios Saúdaveis",
+                    badges: ["Geocoding","ETL/Data Processing", "Web Application"],
+                    createdAt: "Year of 2022",
+                    description: "In progress.",
                     url: "https://saudemental.impulsogov.org/"
                 }, 
                 {
                     id: "3",
-                    name: "Territorial Health",
-                    badges: ["Health", "Management", "Data Science"],
-                    createdAt: "2022",
-                    description: "Social analysis of the territory for strategic decision-making in the health-disease-care process.",
+                    name: "Perfil Ocupas",
+                    badges: ["Business Intelligence","Web Application","Data Visualization"],
+                    createdAt: "Year of 2021",
+                    description: "In progress.",
+                    url: "https://saudemental.impulsogov.org/"
+                }, 
+                {
+                    id: "4",
+                    name: "Farol Covid",
+                    badges: ["Data Visualization","API","Python"],
+                    createdAt: "September 2020",
+                    description: "In progress.",
                     url: "https://territorios.impulsogov.org/"
                 }]
             },
