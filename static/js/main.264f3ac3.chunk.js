@@ -417,7 +417,7 @@
             R = "My projects use a wide variety of cutting-edge technological tools. My best experience is creating processing projects and generating intelligence from data and deploying them in web applications, which are easy to use for users, using cloud infrastructure.",
             B = "Projects",
             // S = "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-            S = "",Single Cell Alzheimer's Analyzes
+            S = "",
             U = {
                 data: [{
                     id: "0",
@@ -428,7 +428,7 @@
                     url: "https://www.impulsoprevine.org/"
                 }, 
                 {
-                    id: "0",
+                    id: "1",
                     name: "Impulso Previne",
                     badges: ["Technology Management", "React", "User Experience", "Data Visualization"],
                     createdAt: "2021 to 2023",
