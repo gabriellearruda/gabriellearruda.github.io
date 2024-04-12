@@ -443,14 +443,14 @@
                 //     description: "In progress.",
                 //     url: "https://www.impulsoprevine.org/"
                 // }, 
-                // {
-                //     id: "2",
-                //     name: "Territórios Saúdaveis",
-                //     badges: ["Geocoding","ETL/Data Processing", "Web Application"],
-                //     createdAt: "Year of 2022",
-                //     description: "In progress.",
-                //     url: "https://saudemental.impulsogov.org/"
-                // }, 
+                {
+                    id: "2",
+                    name: "Territórios Saúdaveis",
+                    badges: ["Geocoding","ETL/Data Processing", "Web Application"],
+                    createdAt: "Year of 2022",
+                    description: "<h2><strong>Project Objectives:</strong></h2><p><span style='font-weight: 400;'>During a consultancy to municipalities, we were to undertake an initiative to increase the number of registrations and coverage.</span></p><p>&nbsp;</p><h2><strong>Challenges Faced:</strong></h2><p><span style='font-weight: 400;'>The municipality served did not have any digital data mapping tools.</span></p><p><span style='font-weight: 400;'>https://raw.githubusercontent.com/gabriellearruda/gabriellearruda.github.io/master/images/mapas.png</span></p><p>&nbsp;</p><h2><strong>My Role in the Project:</strong></h2><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>I mapped the contacts from the database, previously unhandled, georeferencing and calculating them by team;</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>I created digital maps;</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>I conducted presentations with the teams;</span></li></ul><p><img src='https://raw.githubusercontent.com/gabriellearruda/gabriellearruda.github.io/master/images/mapas.png' alt='' width='700' height='317' /></p><p>&nbsp;</p><h2><strong>Achieved Results:</strong></h2><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Deliveries within the deadline with all teams;</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Creation of a product that allowed users to map areas of sanitary vacancies and find where registrations are still needed;</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>The team evaluated the consultancy satisfactorily;&nbsp;&nbsp;</span></li></ul><p>&nbsp;</p><h2><strong>Learnings:</strong></h2><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Effective process management ensures timely deliveries even in high complexity situations;</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>It's important to know and understand the limitations of technology, and that sometimes simple solutions yield more results than very complex mechanisms;</span></li></ul><p>&nbsp;</p><h2><strong>Images or Screenshots:</strong></h2><p><img src='https://raw.githubusercontent.com/gabriellearruda/gabriellearruda.github.io/master/images/territorios_1.png' alt='' width='700' height='350' /></p>",
+                    url: "https://saudemental.impulsogov.org/"
+                }, 
                 {
                     id: "3",
                     name: "Perfil Ocupas",
